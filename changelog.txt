@@ -1,3 +1,26 @@
+Build: 1.13.2-25.0.48 - Fri Feb 22 09:01:29 GMT 2019
+	lex:
+		Hide the webhook address so people don't spam it.
+
+=========
+Build: 1.13.2-25.0.47 - Fri Feb 22 05:30:25 GMT 2019
+	lex:
+		Only break out when we have found changes.
+
+	lex:
+		Delete old OreDictionary file, fix type in NUGGETS_IRON field name, and
+		ping discord from jenkins.
+
+	lex:
+		Remove debug leftovers from Jenkinsfile.
+
+=========
+Build: 1.13.2-25.0.45 - Fri Feb 22 03:04:29 GMT 2019
+	lex:
+		Add getChanges(build) function for easy access to a formated changeset
+		for the target build.
+
+=========
 Build: 1.13.2-25.0.45 - Thu Feb 21 12:25:00 GMT 2019
 	lex:
 		Merge extra and data jars. As Log4j has issues with it's config being in
